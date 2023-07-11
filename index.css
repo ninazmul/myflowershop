@@ -25,25 +25,26 @@
     height: 70px;
     
 }
-.men{
+.menu{
     display: flex;
     list-style: none;
     gap: 10px;
     color: black;
-    /* background-color: transparent; */
-    /* margin-right: 100px; */
-    /* width: auto; */
+    
     background-size: cover;
-    padding-right: 100px;
-    
+    margin-right: 100px;
+    /* padding-right: 5px; */
     
 
 
 }
-.men:hover{
+.menu:hover{
     cursor: pointer;
-    padding: 10px;
+    color: rgb(255, 255, 255);
+    background-color: rgba(172, 6, 136, 0.562);
+    padding: 5px;
 }
+
 .logo{
     height: 50px;
 }
@@ -89,6 +90,7 @@ nav{
   border-radius: 5px;
   border: none;
   font-size: large; 
+  text-decoration: none;
   
 }
 .shop:hover{
@@ -183,7 +185,7 @@ nav{
 }
 .iname1{
     justify-content: left;
-    margin-left: 90px;
+    margin-left: 85px;
 }
 .iname2{
     justify-content: center;
