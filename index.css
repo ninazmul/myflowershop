@@ -35,14 +35,14 @@
     /* width: auto; */
     background-size: cover;
     padding-right: 100px;
-    cursor: pointer;
+    
     
 
 
 }
 .men:hover{
-    background-color: blueviolet;
     cursor: pointer;
+    padding: 10px;
 }
 .logo{
     height: 50px;
@@ -121,7 +121,7 @@ nav{
     display: flex;
     justify-content: center;
     height: 300px;
-    margin-top: 50px;
+    margin: 50px 100px 50px 100px;
     position: relative;
     gap: 15px;
   }
@@ -160,7 +160,7 @@ nav{
     font-size: 24px;
     text-decoration-line: underline;
     margin-top: 70px;
-    gap: 150px;
+    gap: 110px;
   }
   .icons{
     display: flex;
@@ -171,14 +171,27 @@ nav{
     gap: 250px;
     
   }
+  
 .icon-name{
     display: flex;
     list-style: none;
-    justify-content: center;
+    /* justify-content: center; */
     gap: 50px;
     text-align: center;
     padding-bottom: 50px;
-    font-size: 24px;
+    font-size: 18px;
+}
+.iname1{
+    justify-content: left;
+    margin-left: 90px;
+}
+.iname2{
+    justify-content: center;
+    /* margin-left: 0px; */
+}
+.iname3{
+    justify-content: right;
+    margin-left: 50px;
 }
 .hole-icon{
     background: rgba(229, 84, 115, 0.438);
