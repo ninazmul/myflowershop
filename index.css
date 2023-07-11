@@ -158,3 +158,50 @@ nav{
     margin-top: 70px;
     gap: 150px;
   }
+  .icons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    padding: 50px 50px 10px 50px;
+    gap: 250px;
+    
+  }
+.icon-name{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    gap: 50px;
+    text-align: center;
+    padding-bottom: 50px;
+    font-size: 24px;
+}
+.hole-icon{
+    background: rgba(229, 84, 115, 0.438);
+    border-radius: 5px;
+    margin: 100px 100px 100px 100px;
+}
+.hotdeal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(71, 125, 17, 0.15);
+    padding: 50px 150px;
+    margin: 100px 0px;
+}
+.texthot{
+    
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    /* width: 1000px; */
+}
+.off{
+    color: rgb(255, 0, 128);
+}
+.title-hot{
+    font-size: 50px;
+}
+.desc-hot{
+    margin-top: 10px;
+}
